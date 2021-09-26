@@ -52,8 +52,8 @@
 <body>
     <div id="container"></div>
     <script>
-        window.addEventListener("load", loadNews);
-        function loadNews(){
+        // window.addEventListener("load", loadNews);
+        window.onload = function(){
             var container = document.getElementById("container");
             var url = 'https://newsapi.org/v2/everything?' +
                 'q=india&' +
